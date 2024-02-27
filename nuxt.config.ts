@@ -4,5 +4,11 @@ export default defineNuxtConfig({
   app: {
     baseURL: '/robynpdesign.com/',
     buildAssetsDir: 'assets',
-  }
+  },
+  googleFonts: {
+    families: {
+      'Open Sans': [300, 500]
+    }
+  },
+  modules: ["@nuxtjs/tailwindcss", "@nuxtjs/google-fonts"]
 })
